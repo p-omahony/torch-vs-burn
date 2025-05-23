@@ -1,0 +1,14 @@
+# ===Rust===
+*.jpg
+
+debug/
+target/
+
+Cargo.lock
+
+**/*.rs.bk
+
+*.pdb
+
+# ===Python===
+venv/
