@@ -1,6 +1,7 @@
 # PyTorch or Burn ????
 
 Inference comparison between PyTorch and Burn for a ResNet on a single image. Only the forward pass is timed.      
+To build Rust: `cd resnet-burn && cargo build --release && cd ..`.    
 To run it: `./inference-comparison.sh`.      
 
 Result for ResNet18 on cpu:
