@@ -15,7 +15,7 @@ Predicted: Labrador retriever
 Device is: Cpu
 Input shape: [1, 3, 224, 224]
 Input dtype: F32
-Burn inference time: 167.744042ms
+Inference time: 167.744042ms
 Predicted: Labrador retriever
 ```
 

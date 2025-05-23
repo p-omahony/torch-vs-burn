@@ -77,7 +77,7 @@ fn main() {
     let start = Instant::now();
     let out = model.forward(x);
     let duration = start.elapsed();
-    println!("Burn inference time: {:?}", duration);
+    println!("Inference time: {:?}", duration);
 
     let (_score, idx) = out.max_dim_with_indices(1);
     let idx = idx.into_scalar() as usize;
